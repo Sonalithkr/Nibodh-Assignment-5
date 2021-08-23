@@ -1,0 +1,374 @@
+body {
+  margin: 0;
+ padding:0;
+}
+
+.colorr{
+  background-color: #13181f;
+  color:#db994c;
+} 
+
+.icon i{
+margin: 0 30px  0 30px;
+
+}
+.phone-number
+{
+  margin: 0 30px  0 100px;
+}
+.login-out{
+  display:flex;
+justify-content: flex-end; 
+  margin: 0 30px  0 100px;
+}
+.login-out button{
+background:none;
+border:none;
+color:cornsilk;
+}
+ .login-signup i
+ {
+   position: relative;
+  bottom: 5px;
+ }
+ .login-signup button
+ {
+position:relative;
+bottom:10px;
+ }
+
+/* for navbar */
+
+.linkcolor .nav-link{
+color: black;
+margin-top: 30px;
+padding: 20px;
+border-right: 1px solid rgb(200, 194, 194);
+padding: 0 10px;
+}
+/* for last child*/
+.linkcolor .nav-item:last-child .nav-link{
+ border-right: none;
+
+}
+.img{
+  height: 100px;
+  
+}
+.buttonal{
+  margin-top: 30px;
+  border-radius: 24%;
+}
+.bgg{
+  background-color:#a00818;
+}
+
+
+/*image in between*/
+.teslaa{
+background-image:url( "../src/images/tesla.jfif");
+height:1020px;
+background-size:contain;
+background-repeat: no-repeat;
+color: seashell;
+}
+.text
+{
+position: absolute;
+left: 360px;
+top: 220px;
+color: #a00818;
+}
+
+.tesla-footer
+{
+  position: absolute;
+  top:1000px;
+  left: 370px;
+}
+
+/*banner1 ka start */
+
+.custom-1{
+  background-image:url( "../src/images/bg.jpg");
+  height:380px;
+  display:flex;
+  flex-direction: column;
+  color:white;
+  padding:80px;
+  align-items: center;
+
+}
+
+.custom-1  hr{
+  height: 1mm;
+  width: 100px;
+}
+
+
+/* here 3 circles starts*/
+.tesla-conatiner{
+
+height: 300px;
+width: 809px;
+}
+.circle-div-container
+{
+  height: 150px;
+  width: 150px;
+  position: relative;
+   
+}
+.circular-div{
+  height: 200px;
+  width: 200px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid #000;
+  top: 17%;
+
+}
+.circular-div span{
+  text-align:center;
+}
+
+.circular-div.cr1
+{
+  left: 55%;
+}
+.circular-div.cr2
+{
+left: 170%;
+border-radius: 50%;
+background-color:#a00818;
+z-index: 2;
+color:whitesmoke;
+
+}
+.circular-div.cr3
+{
+  
+  left: 285%;
+}
+
+.con .btn{
+  border-radius: 30px;
+  height: 30px;
+  width: 120px;
+  font-size: 14px;
+  margin: 0 10px;
+
+}
+.con{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/*carr*/
+.photo{
+  height: 200px;
+  width: 180px;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  
+}
+.ttt{
+   
+   color: #ffff;
+   
+}
+.cardd{
+  background-color: #000;
+}
+
+/*card ke nice wala*/
+.sss{
+  height: 350px;
+  width: 450px;
+ 
+  
+}
+.sona{
+ text-align: center;
+ color:black;
+  margin-top: 50px;
+
+}
+
+/*bar graph*/
+.height-chart{
+  height:300px;
+  background: #000;
+left: 150px;
+}
+.bar-chart{
+  background:#db994c;
+ display: flex;
+ position: relative;
+ flex-direction: column-reverse;
+ width:45px;
+ color: azure;
+}
+.bar-chart p{
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+.con-bar{
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.bar-chart div{
+position: absolute;
+top: -20px;
+left: 10px;
+}
+.carddd{
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+}
+
+/*list in bar*/
+
+.custon .li{
+  text-align: center;
+}
+
+.custom{
+  padding: 40px 90px;
+font-size: 17px;
+}
+
+/*banner1*/
+
+
+.bann{
+  padding: 100px;
+  
+}
+.bann1 i
+{
+
+  align-items: center;
+  
+}
+.bann1 h2{
+  position: relative;
+  top:100px;
+}
+.bggg {
+
+  background-color:#a00818;
+  color: whitesmoke;
+
+}
+
+.bgg1{
+  position: relative;
+  top: 120px;
+
+}
+
+/* banner2 */
+.banner2{
+  padding: 40px 150px;
+}
+.banner22{
+  padding: 40px 150px;
+}
+.banner22 i{
+  display: flex;
+  align-items: flex-start;
+  top: 34px;
+  position: relative;
+}
+.race{
+  background:url(../../mywebsite/src/images/bg.jpg);
+  color: azure;
+}
+
+
+
+/*footer*/
+.follow{
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact{
+  padding:40px;
+}
+.this{
+  background-color:black;
+  padding: 40px;
+  color:white;
+}
+/*form*/
+.icon-form-1 i{
+  position: absolute;
+  left: 95px;
+}
+.icon-form-1 input{
+  left: 75px;
+  padding-left:30px;
+  margin-left: 70px;
+}
+.icon-form-2 input{
+  margin-right:350px;
+  padding-left:30px;
+}
+.icon-form-2 i{
+  position: absolute;
+  right: 990px;
+}
+
+.icon-form-3
+{
+  padding-left: 20px;
+  padding-right: 40px;
+ 
+}
+.icon-form-3 i
+{
+  position: absolute;
+  left: 95px; 
+}
+
+.form-img
+{
+  width: 600px;
+  right: 120px;
+  top:4760px;
+  position: absolute;
+}
+.formm{
+  background: #a00818;
+}
+.line hr{
+  position: relative;
+  left: 130px;
+  width: 390px;
+  color: rgb(0, 0, 0);
+height: 10px;
+}
+.submit{
+  align-items: center;
+}
+/*slider*/
+.slider-image-team{
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+}
